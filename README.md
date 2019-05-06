@@ -37,6 +37,8 @@ curl -X POST \
 ```
 ### Get balance by ID 
 ```
+curl -X GET http://localhost:3000/api/v1/balance/{id}
+e.g
 curl -X GET http://localhost:3000/api/v1/balance/0
 ```
 
