@@ -1,8 +1,8 @@
 # Blockchain lightweight simulation
 Simple blockchain simulation, based on partial structure of a real blockchain.
-some properties of a real blockchain exist, e.g hash pointers between blocks, greedy
-transactions aggregation loop, while some do not, e.g proof of membership for transactions
-with merkle trees, refernce to balances by transactions.
+some properties of a real blockchain exist, e.g **hash pointers between blocks, greedy
+transactions aggregation loop**, while some do not, e.g **proof of membership for transactions
+with merkle trees, refernce to balances by transactions**.
 
 # API:
 **I have let myself take it up a notch and upgrade the demanded interface**
@@ -95,5 +95,4 @@ Block and Blockchain the implementation of the blockchain is in Blockchain.js an
 1) there is no .env file fore practical reasons, so it'll be faster for you to run
 2) error 500 for server issue, 400 for wrong request, and 200 OK
 3) test on node version 11.14.0
-4)
 
