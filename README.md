@@ -11,6 +11,7 @@ with merkle trees, refernce to balances by transactions**.
 
 ## Installation
 ```$ git clone https://github.com/CommoDor64/blockchain-simulation.git && cd block-simulation```
+
 ```$ npm install```
     
 ## Usage
@@ -94,5 +95,5 @@ Block and Blockchain the implementation of the blockchain is in Blockchain.js an
 ## Notes:
 1) there is no .env file fore practical reasons, so it'll be faster for you to run
 2) error 500 for server issue, 400 for wrong request, and 200 OK
-3) test on node version 11.14.0
+3) test on node version 11.14.0 and npm 6.9.0
 
