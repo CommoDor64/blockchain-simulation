@@ -4,10 +4,11 @@
     transactions aggregation loop, while some do not, e.g proof of membership for transactions
     with merkle trees, refernce to balances by transactions.
 ## Installation
-    - $ git clone && cd
+    - $ git clone https://github.com/CommoDor64/blockchain-simulation.git && cd block-simulation
     - $ npm install
 ## Usage - web API
-    - $ npm run -> The server simulating the entire blockchain will be running on port 3000
+    ```$ npm run``` 
+    
     - In order to initalize the blockchain with balances and transactions, 
       send the following post request (use postman!) to `http://localhost:3000/api/v1/init`
       with header field 'content-type: application/json' and body (example)
@@ -39,7 +40,7 @@ curl -X POST \
 curl -X GET http://localhost:3000/api/v1
 ```
 OR
-    -open browser on: http://localhost:3000/api/v1 
+```open browser on: http://localhost:3000/api/v1``` 
 ### Response
 ```bash
 {
@@ -58,5 +59,4 @@ OR
         }...
     ]
 ```
-### 
 ## Tests
