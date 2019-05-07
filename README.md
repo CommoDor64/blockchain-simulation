@@ -4,7 +4,7 @@ some properties of a real blockchain exist, e.g **hash pointers between blocks, 
 transactions aggregation loop**, while some do not, e.g **proof of membership for transactions
 with merkle trees, refernce to balances by transactions**.
 
-# API:
+## API
 **I have let myself take it up a notch and upgrade the demanded interface**
 1) init(initialBalances, transactions, blockSize) is exposed via POST http://localhost:3000/api/v1/init
 2) getAccountBalance(accountId) is exposed via GET http://localhost:3000/api/v1/balance/{id}
