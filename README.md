@@ -10,7 +10,7 @@ with merkle trees, refernce to balances by transactions**.
 2) getAccountBalance(accountId) is exposed via GET http://localhost:3000/api/v1/balance/{id}
 
 ## Installation
-```$ git clone https://github.com/CommoDor64/blockchain-simulation.git && cd block-simulation```
+```$ git clone https://github.com/CommoDor64/blockchain-simulation.git && cd blockchain-simulation```
 
 ```$ npm install```
     
