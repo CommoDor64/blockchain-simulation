@@ -16,7 +16,7 @@ with merkle trees, refernce to balances by transactions**.
     
 ## Usage
 ### Run
-```$ npm run``` 
+```$ npm start``` 
 
 ## Examples
 ### Initalize a new blockchain
@@ -96,6 +96,6 @@ Block and Blockchain the implementation of the blockchain is in Blockchain.js an
 
 ## Notes:
 1) there is no .env file fore practical reasons, so it'll be faster for you to run
-2) error 500 for server issue, 400 for wrong request, and 200 OK
-3) test on node version 11.14.0 and npm 6.9.0
-
+2) Error 500 for server issue, 400 for wrong request, and 200 OK
+3) Test on node version 11.14.0 and npm 6.9.0
+4) Tests are simple sanity check, mainly api endpoint test.
